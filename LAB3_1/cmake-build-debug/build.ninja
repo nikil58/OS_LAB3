@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Programming/C++/5$ Semestr/LAB3_1/cmake-build-debug/
+cmake_ninja_workdir = D$:/Programming/C++/5$ Semestr/LAB3/LAB3_1/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Programming\C++\5 Semestr\LAB3_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Programming\C++\5 Semestr\LAB3_1" -B"D:\Programming\C++\5 Semestr\LAB3_1\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Programming\C++\5 Semestr\LAB3\LAB3_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Programming\C++\5 Semestr\LAB3\LAB3_1" -B"D:\Programming\C++\5 Semestr\LAB3\LAB3_1\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -61,7 +61,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_LAB3_1: phony || CMakeFiles/LAB3_1.dir
 
-build CMakeFiles/LAB3_1.dir/main.cpp.obj: CXX_COMPILER__LAB3_1_Debug D$:/Programming/C++/5$ Semestr/LAB3_1/main.cpp || cmake_object_order_depends_target_LAB3_1
+build CMakeFiles/LAB3_1.dir/main.cpp.obj: CXX_COMPILER__LAB3_1_Debug D$:/Programming/C++/5$ Semestr/LAB3/LAB3_1/main.cpp || cmake_object_order_depends_target_LAB3_1
   DEP_FILE = CMakeFiles\LAB3_1.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles\LAB3_1.dir
@@ -94,7 +94,7 @@ build LAB3_1.exe: CXX_EXECUTABLE_LINKER__LAB3_1_Debug CMakeFiles/LAB3_1.dir/main
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Programming\C++\5 Semestr\LAB3_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Programming\C++\5 Semestr\LAB3\LAB3_1\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -111,7 +111,7 @@ build LAB3_1: phony LAB3_1.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Programming/C++/5 Semestr/LAB3_1/cmake-build-debug
+# Folder: D:/Programming/C++/5 Semestr/LAB3/LAB3_1/cmake-build-debug
 
 build all: phony LAB3_1.exe
 

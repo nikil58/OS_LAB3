@@ -7,7 +7,7 @@ using namespace std;
 
 #define N 100000000
 #define blockSize 930715
-int counter =  0;
+atomic_int counter =  0;
 double pi = 0;
 DWORD WINAPI calculatePi(LPVOID lpParam);
 

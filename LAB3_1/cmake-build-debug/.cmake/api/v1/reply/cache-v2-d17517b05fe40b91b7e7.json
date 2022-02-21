@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Programming/C++/5 Semestr/LAB3_2/cmake-build-debug"
+			"value" : "d:/Programming/C++/5 Semestr/LAB3/LAB3_1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Programming/C++/5 Semestr/LAB3_2"
+			"value" : "D:/Programming/C++/5 Semestr/LAB3/LAB3_1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled"
+			"value" : "C:/Program Files (x86)/LAB3_1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LAB3_2"
+			"value" : "LAB3_1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1230,43 +1230,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding OpenMP"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[TRUE][TRUE][c ][v4.5()]"
-		},
-		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding OpenMP_C"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[-fopenmp][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.dll.a][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a][v4.5()]"
-		},
-		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding OpenMP_CXX"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[-fopenmp][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.dll.a][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a][C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a][v4.5()]"
-		},
-		{
-			"name" : "LAB3_2_BINARY_DIR",
+			"name" : "LAB3_1_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1275,10 +1239,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Programming/C++/5 Semestr/LAB3_2/cmake-build-debug"
+			"value" : "D:/Programming/C++/5 Semestr/LAB3/LAB3_1/cmake-build-debug"
 		},
 		{
-			"name" : "LAB3_2_IS_TOP_LEVEL",
+			"name" : "LAB3_1_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1290,7 +1254,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "LAB3_2_SOURCE_DIR",
+			"name" : "LAB3_1_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1299,211 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Programming/C++/5 Semestr/LAB3_2"
-		},
-		{
-			"name" : "OpenMP_COMPILE_RESULT_CXX_fopenmp",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "OpenMP_COMPILE_RESULT_C_fopenmp",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "OpenMP_CXX_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "CXX compiler flags for OpenMP parallelization"
-				}
-			],
-			"type" : "STRING",
-			"value" : "-fopenmp"
-		},
-		{
-			"name" : "OpenMP_CXX_LIB_NAMES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "CXX compiler libraries for OpenMP parallelization"
-				}
-			],
-			"type" : "STRING",
-			"value" : "gomp;mingwthrd;mingwthrd"
-		},
-		{
-			"name" : "OpenMP_CXX_SPEC_DATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "CXX compiler's OpenMP specification date"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "201511"
-		},
-		{
-			"name" : "OpenMP_C_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler flags for OpenMP parallelization"
-				}
-			],
-			"type" : "STRING",
-			"value" : "-fopenmp"
-		},
-		{
-			"name" : "OpenMP_C_LIB_NAMES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler libraries for OpenMP parallelization"
-				}
-			],
-			"type" : "STRING",
-			"value" : "gomp;mingwthrd;mingwthrd"
-		},
-		{
-			"name" : "OpenMP_C_SPEC_DATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler's OpenMP specification date"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "201511"
-		},
-		{
-			"name" : "OpenMP_SPECTEST_CXX_",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "OpenMP_SPECTEST_C_",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "OpenMP_gomp_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the gomp library for OpenMP"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.dll.a"
-		},
-		{
-			"name" : "OpenMP_mingwthrd_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the mingwthrd library for OpenMP"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libmingwthrd.a"
-		},
-		{
-			"name" : "untitled_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Programming/C++/5 Semestr/LAB3_2/cmake-build-debug"
-		},
-		{
-			"name" : "untitled_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Programming/C++/5 Semestr/LAB3_2"
+			"value" : "D:/Programming/C++/5 Semestr/LAB3/LAB3_1"
 		}
 	],
 	"kind" : "cache",
